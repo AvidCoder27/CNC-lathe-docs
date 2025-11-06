@@ -21,14 +21,14 @@ In this section, you will:
 
 # Step-by-Step Guide
 
-### Download the installer
+## Download the installer
 
    1. Navigate to [Mach Mach3 Downloads](https://www.machsupport.com/downloads-updates/mach3-downloads/)
    2. Click big red button that says **DOWNLOAD MACH3**
    3. Save the file to your downloads folder
 
 
-### Install Mach3
+## Install Mach3
 
    1. **Close all programs** open on your computer.
 
@@ -79,7 +79,7 @@ In this section, you will:
    15. Once installation is complete, hit **Finish.**
 
 
-### **Customize the installation**
+## **Customize the installation**
 
    1. **Download** the [MachMillLathe.xml](https://github.com/AvidCoder27/CNC-lathe-docs/raw/refs/heads/main/downloads/MachMillLathe.xml) configuration file.
 
@@ -92,7 +92,7 @@ In this section, you will:
    4. **Move** the **RnRMotion.dll** file from your Downloads folder into the **PlugIns folder** of your **Mach3** folder. *(C:\\Users\\<user>\\Desktop\\Mach3\\PlugIns)*
 
 
-### **Test the installation**
+## **Test the installation**
 
    1. **Connect** the **USB** cable from the Lathe to your computer.
    2. On your desktop, there should be a shortcut called **Mach3 Loader**; double click it
@@ -107,6 +107,6 @@ In this section, you will:
       3. Select **OK**
 
 
-### **You can now use Mach3 to control the CNC Lathe!**
+## **You can now use Mach3 to control the CNC Lathe!**
 
 
