@@ -53,7 +53,7 @@ In this section, you will:
       3. Select **Desktop**, then click **Make New Folder.**
       4. Press **F2** to rename the New Folder; type **Mach3** and hit Enter.
       5. Select **OK.**
-      6. The installation path should now be: **C:\\Users\\<user>\\Desktop\\Mach3**
+      6. The installation path should now be: **C:\\Users\\\<user\>\\Desktop\\Mach3**
 
    9. Select **Next.**
    10. Ensure the following program features are **selected**:
