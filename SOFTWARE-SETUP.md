@@ -3,40 +3,32 @@
 This page will describe how to install and configure the software required to run the CNC lathe.
 
 
-
-### Requirements
+# Requirements
 
 Before you begin, ensure that you have a computer running **Windows 10 or 11** with a working **USB port**. You must also have internet access.
 
 
-
-### Summary
+# Summary
 
 In this section, you will:
 
 * [Download](https://www.machsupport.com/downloads-updates/mach3-downloads/) the Mach3 installer
 * Install Mach3 to a folder on your desktop
 * Install select program features
-* Copy a [custom config file](https://drive.usercontent.google.com/download?id=1pVpS0jQ2h0JrI9-0iNZlQyUzOPEWQwN8&export=download&authuser=1) into your installation
-* Copy a [plugin](https://drive.usercontent.google.com/download?id=1IvlrC7vIdPThicExmxKger8X932_ELsw&export=download&authuser=1) into your installation
+* Copy a [custom config file](/downloads/MachMillLathe.xml) into your installation
+* Copy a [plugin](/downloads/RnRMotion.dll) into your installation
 
 
+# Step-by-Step Guide
 
-
-
-### Step-by-Step Guide
-
-
-
-1. ##### Download the installer
+1. ### Download the installer
 
    1. Navigate to [Mach Mach3 Downloads](https://www.machsupport.com/downloads-updates/mach3-downloads/)
    2. Click big red button that says **DOWNLOAD MACH3**
    3. Save the file to your downloads folder
 
 
-
-2. ##### Install Mach3
+2. ### Install Mach3
 
    1. **Close all programs** open on your computer.
 
@@ -87,10 +79,9 @@ In this section, you will:
    15. Once installation is complete, hit **Finish.**
 
 
+3. ### **Customize the installation**
 
-3. ##### **Customize the installation**
-
-   1. **Download** the [MachMillLathe.xml](https://drive.usercontent.google.com/download?id=1pVpS0jQ2h0JrI9-0iNZlQyUzOPEWQwN8&export=download&authuser=1) configuration file.
+   1. **Download** the [MachMillLathe.xml](/downloads/MachMillLathe.xml) configuration file.
 
       1. It is not a virus; ignore Google Drive’s warnings.
 
@@ -98,15 +89,14 @@ In this section, you will:
 
       1. This will automatically allow the Mach3 Loader to detect it.
 
-   3. **Download** the [RnRMotion.dll](https://drive.usercontent.google.com/download?id=1IvlrC7vIdPThicExmxKger8X932_ELsw&export=download&authuser=1) plugin.
+   3. **Download** the [RnRMotion.dll](/downloads/RnRMotion.dll) plugin.
 
       1. It is also not a virus; ignore any warnings from your browser or from Windows
 
    4. **Move** the **RnRMotion.dll** file from your Downloads folder into the **PlugIns folder** of your **Mach3** folder. *(C:\\Users\\<user>\\Desktop\\Mach3\\PlugIns)*
 
 
-
-4. ##### **Test the installation**
+4. ### **Test the installation**
 
    1. **Connect** the **USB** cable from the Lathe to your computer.
    2. On your desktop, there should be a shortcut called **Mach3 Loader**; double click it
@@ -121,8 +111,6 @@ In this section, you will:
       3. Select **OK**
 
 
-
-5. ##### **You can now use Mach3 to control the CNC Lathe!**
-
+5. ### **You can now use Mach3 to control the CNC Lathe!**
 
 
