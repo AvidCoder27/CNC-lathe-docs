@@ -15,8 +15,8 @@ In this section, you will:
 * [Download](https://www.machsupport.com/downloads-updates/mach3-downloads/) the Mach3 installer
 * Install Mach3 to a folder on your desktop
 * Install select program features
-* Copy a [custom config file](/downloads/MachMillLathe.xml) into your installation
-* Copy a [plugin](/downloads/RnRMotion.dll) into your installation
+* Copy a [custom config file](https://github.com/AvidCoder27/CNC-lathe-docs/blob/main/downloads/MachMillLathe.xml) into your installation
+* Copy a [plugin](https://github.com/AvidCoder27/CNC-lathe-docs/blob/main/downloads/RnRMotion.dll) into your installation
 
 
 # Step-by-Step Guide
@@ -81,7 +81,7 @@ In this section, you will:
 
 3. ### **Customize the installation**
 
-   1. **Download** the [MachMillLathe.xml](/downloads/MachMillLathe.xml) configuration file.
+   1. **Download** the [MachMillLathe.xml](https://github.com/AvidCoder27/CNC-lathe-docs/blob/main/downloads/MachMillLathe.xml) configuration file.
 
       1. It is not a virus; ignore Google Drive’s warnings.
 
@@ -89,7 +89,7 @@ In this section, you will:
 
       1. This will automatically allow the Mach3 Loader to detect it.
 
-   3. **Download** the [RnRMotion.dll](/downloads/RnRMotion.dll) plugin.
+   3. **Download** the [RnRMotion.dll](https://github.com/AvidCoder27/CNC-lathe-docs/blob/main/downloads/RnRMotion.dll) plugin.
 
       1. It is also not a virus; ignore any warnings from your browser or from Windows
 
