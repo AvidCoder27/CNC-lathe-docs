@@ -83,6 +83,8 @@ In this section, you will:
 
    1. **Download** the [MachMillLathe.xml](https://github.com/AvidCoder27/CNC-lathe-docs/raw/refs/heads/main/downloads/MachMillLathe.xml) configuration file.
 
+       1. Follow the link, then right click and select **Save as...** to save the file to your downloads folder.
+
    2. **Move** the **MachMillLathe.xml** file from your Downloads folder **into the Mach3 folder** on your desktop.
 
    3. **Download** the [RnRMotion.dll](https://github.com/AvidCoder27/CNC-lathe-docs/raw/refs/heads/main/downloads/RnRMotion.dll) plugin.
