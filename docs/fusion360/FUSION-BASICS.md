@@ -13,3 +13,8 @@ lathe.
 
 ## **TODO**
 
+# Posting for our lathe
+## **TODO**
+*One note: the file 'downloads/mach3 turning.cps' is the machine configuration to be used.
+Have users import it to fusion and use it as their configuration*
+
