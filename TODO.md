@@ -11,12 +11,14 @@ Enough to get somebody up and running with the lathe.
     * How do we control the lathe? 
     * How do we program the lathe?
     * What are the limits of our lathe?
+    * what are the different tools of the lathe?
 * Mach3 Basics
     * What is mach3?
     * Basic controls
 * Fusion360 Basics
     * Why do we need Fusion?
     * What is the configuration required to use fusion with our lathe?
+    * how do we import tools into the lathe, and what feeds and speeds are appropriate?
     * How do we design such that it can be created on a lathe?
      
 ## Advanced Documentation
