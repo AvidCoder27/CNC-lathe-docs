@@ -131,6 +131,7 @@ As a result, we will assume at least very basic knowledge of how to use Fusion36
 
    6. In the `Insert` tab, set the `ANSI code` to `DCGT321`.
       1. Make sure to write this code EXACTLY.
+
       2. The ANSI code tells Fusion the exact specifications of our tool.
 
    7. Ensure: `Type` is `Turning general`, `Unit` is `Inches`, and `Material` is `Carbide`.
@@ -140,8 +141,48 @@ As a result, we will assume at least very basic knowledge of how to use Fusion36
    9. Set `Hand` to `L = left handed` and the `Clamping` to `D = rigid lock`. The other defaults are fine.
       **TODO specify actual holder settings**
 
-   10. Skipping `Setup`, move to the `Cutting data` tab. 1. On the left, select the plus to create a new cutting preset; call it "Wood" 2. Disable `Use constant surface speed`. 1. This is because our lathe's spindle speed is not controlled by the G-Code. Instead, we set it with a knob. 2. By turning off constant surface speed, we allow surface speed to change, meaning that spindle speed is constant. 3. We do not want to have to change the spindle speed by hand during a cutting operation! 3. Set the `Spindle Speed` to 10000 rpm (that's 10 thousand!). 4. Enable `Use feed per revolution`. 1. Set `Cutting feedrate per revolution` to 0.012 inches 2. Ensure that it automatically updates the other two feedrates below. 5. Disable `Use depth of cut`. 6. Set `Coolant` to `Disabled`. 11. Switch to the `Post processor` tab. Ensure that: 1. `Number` is 1, 2. `Break control` is disabled 3. `Compensation offset` is 1 4. `Manual tool change` is disabled 5. `Turret` is 0 12. Select the blue `OK` in the lower right to create your new tool. 13. Select the new tool, and hit Ctrl+D to duplicate it. 1. Double click your duplicated tool and change the following settings: 1. Change the description to `RHand DCGT321` 2. Under the `Holder` tab, set `Hand` to `R = right handed`. 2. This will create a the version of the tool for making so-called "right-hand" cuts.
-       The cutting bits are identical, the only difference is how they are held and how they interact with the stock. 3. Select `OK` to confirm your new, right hand tool. 14. Hit Escape to exit the tool manager.
+   10. Skipping `Setup`, move to the `Cutting data` tab.
+       1. On the left, select the plus to create a new cutting preset; call it "Wood"
+
+       2. Disable `Use constant surface speed`.
+          1. This is because our lathe's spindle speed is not controlled by the G-Code. Instead, we set it with a knob.
+
+          2. By turning off constant surface speed, we allow surface speed to change, meaning that spindle speed is constant.
+
+       3. We do not want to have to change the spindle speed by hand during a cutting operation! 3. Set the `Spindle Speed` to 10000 rpm (that's 10 thousand!).
+
+       4. Enable `Use feed per revolution`.
+          1. Set `Cutting feedrate per revolution` to 0.012 inches
+
+          2. Ensure that it automatically updates the other two feedrates below.
+
+       5. Disable `Use depth of cut`.
+
+       6. Set `Coolant` to `Disabled`.
+
+   11. Switch to the `Post processor` tab. Ensure that:
+       1. `Number` is 1
+
+       2. `Break control` is disabled
+
+       3. `Compensation offset` is 1
+
+       4. `Manual tool change` is disabled
+
+       5. `Turret` is Fusion360
+
+   12. Select the blue `OK` in the lower right to create your new tool.
+
+   13. Select the new tool, and hit Ctrl+D to duplicate it.
+       1. Double click your duplicated tool and change the following settings:
+          1. Change the description to `RHand DCGT321`
+
+          2. Under the `Holder` tab, set `Hand` to `R = right handed`.
+
+       2. This will create a the version of the tool for making so-called "right-hand" cuts.
+          The cutting bits are identical, the only difference is how they are held and how they interact with the stock.
+
+       3. Select `OK` to confirm your new, right hand tool. 14. Hit Escape to exit the tool manager.
 
 ## Creating toolpaths
 
