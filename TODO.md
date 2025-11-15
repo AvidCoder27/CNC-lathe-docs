@@ -4,26 +4,30 @@
 
 Enough to get somebody up and running with the lathe.
 
-* Lathe basics
-    * What is a lathe?
-    * How does it work?
-    * What do all the different parts do and what are they called?
-    * How do we control the lathe? 
-    * How do we program the lathe?
-    * What are the limits of our lathe?
-    * what are the different tools of the lathe?
-* Mach3 Basics
-    * What is mach3?
-    * Basic controls
-* Fusion360 Basics
-    * Why do we need Fusion?
-    * What is the configuration required to use fusion with our lathe?
-    * how do we import tools into the lathe, and what feeds and speeds are appropriate?
-    * How do we design such that it can be created on a lathe?
-     
+- Lathe basics
+  - What is a lathe?
+  - How does it work?
+  - What do all the different parts do and what are they called?
+  - How do we control the lathe?
+  - How do we program the lathe?
+  - What are the limits of our lathe?
+  - what are the different tools of the lathe?
+- Mach3 Basics
+  - What is mach3?
+  - Basic controls
+- Fusion360 Basics
+  - Why do we need Fusion?
+  - What is the configuration required to use fusion with our lathe?
+  - how do we import tools into the lathe, and what feeds and speeds are appropriate?
+  - How do we design such that it can be created on a lathe?
+
+- Fusion360 Setup
+  - insert images to assist, especially with CAD
+  - find and insert a good, basic fusion tutorial
+  - find and insert specific holder settings
+
 ## Advanced Documentation
 
 These docs will go more in depth and are useful when troubleshooting.
 
-* Lathe wiring information
-
+- Lathe wiring information
