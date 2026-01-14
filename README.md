@@ -35,3 +35,9 @@ The lathe requires knowledge and skills across three domains:
 We recommend starting by following the [quick-start](docs/QUICK-START.md) guide, which will help you
 make your first part on the lathe.
 After you understand the basics, you can move onto reading the more advanced documentation.
+
+## [YouTube playlist](https://www.youtube.com/playlist?list=PLvqvzpUXIy8C5j3wQ6313SmjzquX_eAye)
+
+This documentation also comes with a YouTube playlist that includes some helpful videos to provide
+help with a variety of things relating to the lathe. The individual videos will be linked to in the relevant 
+documentation, but you can also [view the entire playlist](https://www.youtube.com/playlist?list=PLvqvzpUXIy8C5j3wQ6313SmjzquX_eAye) and peruse it at your liesure.
